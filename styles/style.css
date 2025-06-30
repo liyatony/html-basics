@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    
+}
+
+body {
+  background-color: #f3f4f6;
+  background-image: url('bk1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#formbox {
+  border: 3px solid rgb(135, 161, 176);
+  background-color: #fbfbfb;
+  width: 700px;
+  padding: 40px;
+  border-radius: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
